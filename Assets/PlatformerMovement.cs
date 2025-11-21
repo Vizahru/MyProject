@@ -13,7 +13,7 @@ using UnityEngine.InputSystem;
 public class PlatformerMovement : MonoBehaviour
 {
     [SerializeField] private float maxSpeed = 10f;
-    [SerializeField] private float jumpForce = 10f;
+    [SerializeField] private float jumpForce = 5f;
     // [SerializeField] private float gravityMultiplier = 1;    //unused
     [SerializeField] private SpriteRenderer spriteRenderer;
 
